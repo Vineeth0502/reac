@@ -23,8 +23,8 @@ const Slideshow = ({ autoAdvanceInterval = 5000 }) => {
       
     },
     {
-      image: '/pics/12.jpg',
-      image1: '/pics/chat.jpg',
+      image: 'pics/12.jpg',
+      image1: 'pics/chat.jpg',
       alt: 'Slide 2',
       title: 'BaatCheeth (2022) - Android App – Using Firebase Console',
       repository: 'https://github.com/Vineeth0502/BaatCheeth.git',
@@ -36,8 +36,8 @@ const Slideshow = ({ autoAdvanceInterval = 5000 }) => {
       },
     },
     {
-      image: '/pics/12.jpg',
-      image1: '/pics/mern.png',
+      image: 'pics/12.jpg',
+      image1: 'pics/mern.png',
       alt: 'Slide 3',
       title: 'PaatVihar (2023) - Web Application : MERN Stack',
       repository: 'https://github.com/Mukeshreddy122/PaatVihar.git',
@@ -49,8 +49,8 @@ const Slideshow = ({ autoAdvanceInterval = 5000 }) => {
       },
     },
     {
-      image: '/pics/12.jpg',
-      image1: '/pics/django.jpg',
+      image: 'pics/12.jpg',
+      image1: 'pics/django.jpg',
       alt: 'Slide 4',
       title: 'MediFit (2022) - Web Application : Using HTML/CSS &Django ',
       repository: 'https://github.com/Vineeth0502/',
