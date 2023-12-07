@@ -4,49 +4,95 @@
 @import 'tailwindcss/utilities';
 
 /* Add these styles to your CSS file */
-.slideshow-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .slide {
-    position: relative;
-    display: inline-block;
-  }
-  
-  img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-    font-size: 16px;
-  }
-  
-  .arrow-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    background-color: transparent;
-    color: white;
-    border: none;
+.left-right{
+left: 38%;
+}
+.left-right1{
+    left: 33%;
+    top:2%;
+    width: 35%;
+    }
+
+.mt-10 {
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+}
+
+.aboutme .profile-picture img {
+    margin-top: 380px;
+    max-width: 55%;
+    height: 60%;
     cursor: pointer;
-  }
-  
-  .left {
-    left: 10px;
-  }
-  
-  .right {
-    right: 10px;
-  }
-  
+    border-radius: 5px;
+    margin-left: 100px;
+}
+
+#work {
+    margin-top: 50px;
+    position: relative;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #111;
+    color: #6c757d;
+    overflow-x: hidden;
+}
+
+.text-4xl {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.text-3xl {
+    font-size: 2.875rem;
+    line-height: 2.25rem;
+    color: #3B82F6;
+}
+
+.top-36 {
+    top: 8rem;
+}
+
+.w-32 {
+    width: 15rem;
+}
+
+.h-32 {
+    height: 15rem;
+}
+
+.w-60 {
+    width: 8rem;
+}
+
+.bg-gray-800 {
+    --tw-bg-opacity: 0;
+}
+
+.bg-gray-8000 {
+    color:black;
+}
+
+.items-center {
+    margin-right: 20px;
+    align-items: center;
+}
+.arrow-button1{
+    font-size: 40px;
+    top: 60%;
+    z-index: 999;
+    color: #ffffff;
+
+}
+.mod{
+    width: 90%;
+}
+
+.left-right {
+    left: 32%;
+    margin-top: 60px;
+}
+
+.mt-3 {
+    color: red;
+    margin-top: 0.75rem;
+}

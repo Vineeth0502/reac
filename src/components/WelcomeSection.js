@@ -2,6 +2,7 @@
 import React from 'react';
 import './main.css';
 
+
 const WelcomeSection = () => {
   const redirectToAboutMe = () => {
     const aboutMeSection = document.getElementById("aboutme");
@@ -14,7 +15,7 @@ const WelcomeSection = () => {
   };
 
   return (
-    <div className="bg-gray-800 text-white h-screen flex items-center justify-center">
+    <div id="Home" className="bg-gray-800 text-white h-screen flex items-center justify-center">
       <div className="text-center">
         <img src="pics/vineeth1.jpg" alt="Profile Image" className="w-32 h-32 rounded-full mx-auto mb-6" />
         <h1 className="text-3xl font-semibold">Welcome To My Portfolio</h1>

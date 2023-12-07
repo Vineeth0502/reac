@@ -10,7 +10,7 @@ const PublicationsSection = () => {
 
       <section id="publications" className="contenttwo">
         {/* Research Publication */}
-        <div className="publication-item grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="publication-item grid grid-cols-1 gap-4">
           {/* Left Section with Image */}
           <div className="left">
             <div className="dotted-box">

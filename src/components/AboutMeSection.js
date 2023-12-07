@@ -1,4 +1,6 @@
 import React from 'react';
+import './main.css';
+import './styles.css';
 
 const AboutMeSection = () => {
   const openModal = () => {
@@ -10,7 +12,7 @@ const AboutMeSection = () => {
   };
 
   return (
-    <section className="aboutme">
+    <section  className="aboutme">
       <div className="left-section">
         <div className="profile-picture cursor-pointer" onClick={openModal}>
           <img
@@ -21,9 +23,9 @@ const AboutMeSection = () => {
         </div>
       </div>
 
-      <div id="aboutme" className="right-section ml-4">
+      <div id="aboutme"  className="right-section ml-4">
         <h2 className="text-2xl font-bold mb-4 text-blue-500">About Me</h2>
-        <p className="text-gray-700">
+        <p className="">
           Greetings! I am Vineeth Ketham, a dedicated software developer currently pursuing a Master's in Computer Science at Saint Louis University. With a proven track record in envisioning, coding, and managing cutting-edge software systems, I bring a wealth of experience to the table. During my internships at DizitalZap and ThePaperBrains in Hyderabad, India, I honed my skills in designing user-friendly WordPress websites and developing innovative solutions as a Full Stack Developer. My diverse project portfolio includes the creation of an AI model for a virtual assistant and an Android-based chat application using Firebase. Beyond the realm of technology, I find joy in playing cricket, a sport that not only fuels my competitive spirit but also emphasizes teamwork—a quality I seamlessly integrate into my professional pursuits. With a passion for staying at the forefront of technological advancements and a commitment to delivering exceptional results, I am excited about the endless possibilities in the dynamic field of software development.
         </p>
 

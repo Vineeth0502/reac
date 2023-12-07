@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 p-4 text-center text-white">
       <div className="flex justify-center space-x-4">
-        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/vineethketham/" target="_blank" rel="noopener noreferrer">
           <img src="pics/linkedin.png" alt="LinkedIn" className="w-8 h-8" />
         </a>
         <a href="https://www.instagram.com/your-instagram-profile" target="_blank" rel="noopener noreferrer">

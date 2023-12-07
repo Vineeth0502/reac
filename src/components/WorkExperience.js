@@ -1,24 +1,23 @@
 // WorkExperience.js
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './styles.css';
+
 
 const WorkExperience = () => {
-  const redirectToWorkDetails = () => {
-    // Implement your logic for redirecting to work details
-    console.log('Redirect to work details');
-  };
 
   return (
-    <div className="glitch-wrapper" id="worksection">
-      <div className="glitch" data-text="Clients I Have Worked With">
-        Clients I Have Worked With
+    <div className="glitch text-center" id="worksection">
+       <div className="glitch-wrapper" id="projects">
+        <div className="glitch" data-text="Clients I have Worked With">Clients I have Worked With</div>
       </div>
 
       {/* Work Experience Content */}
-      <section id="work" className="contenttwo">
+     <section id="work" className="">
         {/* Client Section */}
         <div className="work-item">
           {/* Client Container for Horizontal Scrolling */}
-          <div className="flex overflow-x-auto">
+          <div className="flex ">
             {/* Row 2: Images */}
             <div className="client">
               <img src="pics/digitalzap.avif" alt="Client 1 Logo" />
@@ -35,9 +34,11 @@ const WorkExperience = () => {
 
           {/* Row 3: Button (Fixed) */}
           <div className="client-button">
-            <button onClick={redirectToWorkDetails} className="bg-blue-500 text-white px-4 py-2">
+           
+           <Link to="/demo"> <button className="bg-blue-500 text-sm	 text-white px-4 py-2">
               View More
-            </button>
+            </button></Link>
+          
           </div>
         </div>
       </section>

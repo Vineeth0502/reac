@@ -680,6 +680,11 @@ ul {
     margin-bottom: 20px;
 }
 
+.contact-form1 {
+    padding: 20px;
+    border-radius: 15px;
+}
+
 .client img {
     width: 250px; /* Adjust the width as needed */
     height: 250px; /* Adjust the height as needed */
@@ -757,26 +762,3 @@ button1:hover {
     cursor: pointer;
     font-size: 30px;
 }
-/* Add these styles to your CSS file */
-.carousel-item {
-    position: relative;
-    text-align: center;
-  }
-  
-  .carousel-image {
-    width: 100%;
-    height: auto;
-    max-height: 400px; /* Adjust the maximum height as needed */
-  }
-  
-  .carousel-description {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-    font-size: 16px;
-  }
-  

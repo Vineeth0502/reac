@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 const ContactSection = () => {
   return (
@@ -10,10 +11,9 @@ const ContactSection = () => {
         </h1>
         <span className="contact-text block mb-2">Drop a message to </span>
         <a
-          href="contact.html"
           className="contact-email text-blue-500 underline"
         >
-          vineethkketham@gmail.com
+         <Link to="/contact">vineethkketham@gmail.com </Link> 
         </a>
       </div>
     </div>
