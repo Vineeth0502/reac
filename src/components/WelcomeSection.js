@@ -48,10 +48,7 @@ const smoothScrollTo = (targetId) => {
           <Link
 to="/#aboutme"
 className="arrow-button text-4xl   transform hover:scale-110 transition-transform"
-style={{
-  background: activeLink === 'aboutme' ? '#87CEEB' : 'transparent',
-  padding: activeLink === 'aboutme' ? '8px 12px' : '8px',
-}}
+
 onClick={() => handleLinkClick('aboutme')}
 >
 &#9660;
