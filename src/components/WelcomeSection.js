@@ -5,6 +5,7 @@ import './main.css';
 
 const WelcomeSection = () => {
   const redirectToAboutMe = () => {
+    console.log("redirectToAboutMe function called");
     const aboutMeSection = document.getElementById("aboutme");
 
     if (aboutMeSection) {
